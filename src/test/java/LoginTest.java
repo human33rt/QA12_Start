@@ -34,6 +34,8 @@ public class LoginTest {
         //WebElement element5 = wd.findElement(By.cssSelector("#root"));
         //WebElement elLink = wd.findElement(By.linkText("Login"));
 
+   WebElement elLink = wd.findElement(By.xpath("//*[text()='Registration']"));
+
        // List<WebElement> list= wd.findElements(By.tagName("a"));
        // WebElement element=list.get(2);
         //element.click(); //click "LOGIN" button
