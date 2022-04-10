@@ -67,8 +67,8 @@ public class Registration {
         inputPassword.clear();
         inputPassword.sendKeys("Nnoa12345$");
 
-        WebElement buttonLogin = wd.findElement(By.tagName("button"));
-        buttonLogin.click();
+        WebElement buttonRegistration = wd.findElement(By.xpath("//*[text()=' Registration']"));
+        buttonRegistration.click();
     }
 
     @AfterMethod
