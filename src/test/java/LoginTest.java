@@ -1,29 +1,15 @@
 //import org.junit.Test;
 //import org.junit.Test;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class LoginTest {
+public class LoginTest extends TestBase {
 
-    WebDriver wd;
 
-    @BeforeMethod
-    public void init(){
-        wd = new ChromeDriver();
-        wd.manage().window().maximize();
-        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
-        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-    }
 
    // @Test
     //public void successLoginTest(){
@@ -35,7 +21,7 @@ public class LoginTest {
         //WebElement element5 = wd.findElement(By.cssSelector("#root"));
         //WebElement elLink = wd.findElement(By.linkText("Login"));
 
-   WebElement elLink = wd.findElement(By.xpath("//*[text()='Registration']"));
+  // WebElement elLink = wd.findElement(By.xpath("//*[text()='Registration']"));
 
        // List<WebElement> list= wd.findElements(By.tagName("a"));
        // WebElement element=list.get(2);
@@ -96,11 +82,5 @@ public class LoginTest {
         //wrong email
         //submit
     }
-
-    @AfterMethod
-    public void tearDown(){
-        wd.quit();
-    }
-
 
 }
