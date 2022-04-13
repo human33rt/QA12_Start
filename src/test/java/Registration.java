@@ -24,6 +24,8 @@ public class Registration {
 
     @Test
     public void successRegisrationTest(){
+
+        int i= (int) (System.currentTimeMillis()/1000)%3600;
         WebElement element = wd.findElement(By.cssSelector("[href='/login']"));
         element.click();
 
@@ -34,7 +36,7 @@ public class Registration {
 
         inputEmail.click();
         inputEmail.clear();
-        inputEmail.sendKeys("noa@gmail.com");
+        inputEmail.sendKeys("noa"+i+"@gmail.com");
 
         inputPassword.click();
         inputPassword.clear();
@@ -51,6 +53,8 @@ public class Registration {
 
     @Test
     public void negativeRegistrationTest(){
+        int i= (int) (System.currentTimeMillis()/1000)%3600;
+
         WebElement element = wd.findElement(By.cssSelector("[href='/login']"));
         element.click();
 
@@ -61,7 +65,7 @@ public class Registration {
 
         inputEmail.click();
         inputEmail.clear();
-        inputEmail.sendKeys("noagmail.com");
+        inputEmail.sendKeys("noa"+i+"gmail.com");
 
         inputPassword.click();
         inputPassword.clear();
