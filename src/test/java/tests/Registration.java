@@ -1,14 +1,27 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+package tests;
 
-import java.util.Collection;
-import java.util.List;
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class Registration extends TestBase {
 
     //WebDriver wd;
+    @BeforeMethod
+    public void preCondition(){
+        if(app.getUser().isLogged()){
+            app.getUser().logout();
+        }
+    }
+
+//    public void logout() {
+//        click(By.xpath("//button[text()='Sign Out']"));
+//    }
+//
+//    private boolean isLogged() {
+//        return isElementPresent(By.xpath("//button[text()='Sign Out']"));
+//    }
 
 
     @Test
@@ -19,10 +32,10 @@ public class Registration extends TestBase {
         String password = "Nnoa12345$";
         System.out.println("Email: " +email);
 
-        openLoginRegistrationForm();
-        fillLoginRegistrationForm(email,password);
-        submitLoginRegistrationForm();
-        Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
+        app.getUser().openLoginRegistrationForm();
+        app.getUser().fillLoginRegistrationForm(email,password);
+        app.getUser().submitRegistrationForm();
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[text()='Sign Out']")));
 
 
     }
@@ -34,9 +47,9 @@ public class Registration extends TestBase {
         String password = "Nnoa12345$";
         System.out.println("Email: " +email);
 
-        openLoginRegistrationForm();//open LoginRegistration form
-        fillLoginRegistrationForm(email,password);//fill LoginRegistration form
-        submitLoginRegistrationForm();
+         app.getUser().openLoginRegistrationForm();//open LoginRegistration form
+         app.getUser().fillLoginRegistrationForm(email,password);//fill LoginRegistration form
+         app.getUser().submitRegistrationForm();
         //click();
         //type();
 //        WebElement element = wd.findElement(By.cssSelector("[href='/login']"));
@@ -55,7 +68,7 @@ public class Registration extends TestBase {
 //        inputPassword.clear();
 //        inputPassword.sendKeys("Nnoa12345$");
 //
-//        WebElement buttonRegistration = wd.findElement(By.xpath("//*[text()=' Registration']"));
+//        WebElement buttonRegistration = wd.findElement(By.xpath("//*[text()=' tests.Registration']"));
 //        buttonRegistration.click();
     }
 
