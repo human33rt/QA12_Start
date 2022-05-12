@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Registration extends TestBase {
 
-    //WebDriver wd;
+
     @BeforeMethod
     public void preCondition(){
         if(app.getUser().isLogged()){
@@ -25,7 +25,7 @@ public class Registration extends TestBase {
 
 
     @Test
-    public void successRegisrationTest(){
+    public void successRegistrationTest(){
 
         int i= (int) (System.currentTimeMillis()/1000)%3600;
         String email = "noa"+i+"@gmail.com";
@@ -35,8 +35,8 @@ public class Registration extends TestBase {
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(email,password);
         app.getUser().submitRegistrationForm();
-        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[text()='Sign Out']")));
-
+        //Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[text()='Sign Out']")));
+        Assert.assertTrue(app.getUser().isLogged());
 
     }
 
@@ -47,29 +47,12 @@ public class Registration extends TestBase {
         String password = "Nnoa12345$";
         System.out.println("Email: " +email);
 
-         app.getUser().openLoginRegistrationForm();//open LoginRegistration form
-         app.getUser().fillLoginRegistrationForm(email,password);//fill LoginRegistration form
+         app.getUser().openLoginRegistrationForm();
+         app.getUser().fillLoginRegistrationForm(email,password);
          app.getUser().submitRegistrationForm();
-        //click();
-        //type();
-//        WebElement element = wd.findElement(By.cssSelector("[href='/login']"));
-//        element.click();
-//
-//        List<WebElement> list= wd.findElements(By.tagName("input"));
-//
-//        WebElement inputEmail=list.get(0);
-//        WebElement inputPassword=list.get(1);
-//
-//        inputEmail.click();
-//        inputEmail.clear();
-//        inputEmail.sendKeys("noa"+i+"gmail.com");
-//
-//        inputPassword.click();
-//        inputPassword.clear();
-//        inputPassword.sendKeys("Nnoa12345$");
-//
-//        WebElement buttonRegistration = wd.findElement(By.xpath("//*[text()=' tests.Registration']"));
-//        buttonRegistration.click();
+         app.getUser().pause(5000);
+         Assert.assertTrue(app.getUser().isWrongFormatPresent());
+
     }
 
 
