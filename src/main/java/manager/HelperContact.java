@@ -32,19 +32,12 @@ public class HelperContact extends HelperBase {
     }
 
     public void isContactPageDisplayed(){
-
     }
-
     public void login() {
         click(By.xpath("//button[text()='Sign Out']"));
     }
 
 
-//
-//    public int countOfContacts() {
-//        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();//not count
-//    }
-//
     public boolean isContactCreateByName(String name) {
        List<WebElement> list = wd.findElements(By.cssSelector("h2"));
         for (WebElement el:list) {
@@ -53,8 +46,6 @@ public class HelperContact extends HelperBase {
         }
         return false;
     }
-
-
     public boolean isContactCreateByPhone(String phone){
         List<WebElement> list = wd.findElements(By.cssSelector("h3"));
         for (WebElement el:list) {
@@ -63,14 +54,18 @@ public class HelperContact extends HelperBase {
         }
         return false;
     }
-//
-//    //public void removeOneContact(){
-//       // WebElement contact = wd.findElement(By.cssSelector(".contact-item_card__2SOIM"));
-//       // contact.click();
-//       // click(By.xpath("//button[.='Remove']"));
-//
-//   // }
-//
+
+    public int countOfContacts() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();//not count
+    }
+
+public void removeOneContact(){
+WebElement contact = wd.findElement(By.cssSelector(".contact-item_card__2SOIM"));
+ contact.click();
+click(By.xpath("//button[.='Remove']"));
+}
+
+
 //    public void providerOfContacts(){
 //        if(countOfContacts()<3){
 //            int index=(int) (System.currentTimeMillis()/1000)%3600;
@@ -90,27 +85,26 @@ public class HelperContact extends HelperBase {
 //            //Contact contact = Contact.builder().Name().LastName().build();
 //        }
 //    }
-//
-//    public int removeOneContactCount(){
-//        int countBefore = countOfContacts();
-//        //logger.info("Before remove 'One contact tests' contact was --->"+countBefore);
-//
-//        if(!isContactsListIsEmpty()){
-//            String phone = wd.findElement(By.cssSelector(".contact-item_card__2SOIM h3")).getText();
-//            logger.info("The removed number was----> " +phone);
-//            wd.findElement(By.cssSelector(".contact-item_card__2SOIM")).click();
-//            wd.findElement(By.xpath("//button[.='Remove']")).click();
-//            pause(500);
-//        }
-//        int countAfter=countOfContacts();
+
+   public int removeOneContactCount(){
+      int countBefore = countOfContacts();
+       //logger.info("Before remove 'One contact tests' contact was --->"+countBefore);
+       if(!isContactsListIsEmpty()) {
+           String phone = wd.findElement(By.cssSelector(".contact-item_card__2SOIM h3")).getText();
+//           logger.info("The removed number was----> " +phone);
+           wd.findElement(By.cssSelector(".contact-item_card__2SOIM")).click();
+           wd.findElement(By.xpath("//button[.='Remove']")).click();
+           pause(500);
+        }
+        int countAfter=countOfContacts();
 //        //logger.info("After removing one contact the count is --->"+countAfter);
-//
-//        return countAfter-countBefore;
-//    }
-//
-//    public boolean isContactsListIsEmpty() {
-//        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM h3")).isEmpty();
-//    }
+
+        return countAfter-countBefore;
+    }
+
+        public boolean isContactsListIsEmpty() {
+       return wd.findElements(By.cssSelector(".contact-item_card__2SOIM h3")).isEmpty();
+   }
 //
 //    public void removeAllContactsNotWork() {
 //        List <WebElement> list = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
@@ -122,10 +116,9 @@ public class HelperContact extends HelperBase {
 //        }
 //    }
 //
-//    public void removeAllContacts() {
-//
-//        while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size()!=0){
-//            removeOneContactCount();
-//        }
-//    }
-}
+           public void removeAllContacts(){
+               while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() != 0) {
+                   removeOneContactCount();
+               }
+           }
+       }

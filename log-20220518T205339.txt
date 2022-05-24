@@ -1,0 +1,13 @@
+2731 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+3721 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccess
+10561 [Test worker] INFO  tests.TestBase - The test 'Add new contact starts with count of contact---->56
+14872 [Test worker] INFO  tests.TestBase - The test 'Add new contact' ends with count of contact in the end --->57
+17773 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccess
+17774 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccess
+17812 [Test worker] INFO  tests.TestBase - The test 'Add new contact starts with count of contact---->57
+21902 [Test worker] INFO  tests.TestBase - The test 'Add new contact' ends with count of contact in the end --->59
+23907 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccess
+23908 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccess
+23982 [Test worker] INFO  tests.TestBase - The test 'Add new contact starts with count of contact---->59
+28401 [Test worker] INFO  tests.TestBase - The test 'Add new contact' ends with count of contact in the end --->61
+30411 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccess
