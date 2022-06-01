@@ -1,0 +1,3 @@
+2840 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+3720 [Test worker] INFO  tests.TestBase - Test name ----->fillLoginFormTest
+22947 [Test worker] INFO  tests.TestBase - Test endfillLoginFormTest

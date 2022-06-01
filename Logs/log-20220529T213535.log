@@ -1,0 +1,15 @@
+3164 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+4301 [Test worker] INFO  tests.TestBase - Test name ----->fillLoginFormTest
+4304 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+9381 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+9385 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+9416 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+9564 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+9592 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+9824 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+9859 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+10048 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+10073 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+15206 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+20258 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+20265 [Test worker] INFO  tests.TestBase - Test endfillLoginFormTest

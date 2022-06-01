@@ -1,0 +1,52 @@
+2814 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+3918 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTest
+3924 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+8991 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+8993 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+9009 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+9133 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+9181 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+9556 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+9651 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+9846 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+9882 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+14933 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14990 [Test worker] INFO  manager.MyListener - Something wrong!!!
+14992 [Test worker] INFO  manager.MyListener - unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=102.0.5005.63): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6bddebc76f4da0413116954396f9984
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+15025 [Test worker] INFO  manager.MyListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!}
+  (Session info: chrome=102.0.5005.63): Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6bddebc76f4da0413116954396f9984
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+15677 [Test worker] INFO  manager.MyListener - Error screenshot link --->src/test/screenshots/screenshot-888.png
+15680 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTest

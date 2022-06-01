@@ -36,6 +36,7 @@ public class Registration extends TestBase {
         app.getUser().fillLoginRegistrationForm(email,password);
         app.getUser().submitRegistrationForm();
         //Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button[text()='Sign Out']")));
+        app.getUser().pause(5000);
         Assert.assertTrue(app.getUser().isLogged());
 
     }
