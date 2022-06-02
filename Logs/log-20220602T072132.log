@@ -1,0 +1,79 @@
+2334 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+3396 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTestNew
+3400 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+8448 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+8450 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+8479 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+8570 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+8593 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+8826 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+8868 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+9029 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+9059 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+14126 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14149 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+14154 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTestNew
+14155 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTestNew
+14156 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14179 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+14180 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14198 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+14244 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+14258 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+14296 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+14319 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+14456 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+14474 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+14597 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+14618 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+19669 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+19705 [Test worker] INFO  manager.MyListener - Something wrong!!!
+19706 [Test worker] INFO  manager.MyListener - unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=102.0.5005.63): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97cd04dc2c6ede21d24c5691a67e7330
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+19710 [Test worker] INFO  manager.MyListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=102.0.5005.63): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97cd04dc2c6ede21d24c5691a67e7330
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+20204 [Test worker] INFO  manager.MyListener - Error screenshot link --->src/test/screenshots/screenshot-1311.png
+20205 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTestNew
+20206 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTestNew
+20206 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+25287 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+25288 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+25303 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+25341 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+25351 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+25518 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+25539 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+25692 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+25711 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+30753 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+30772 [Test worker] INFO  manager.MyListener - Something wrong!!!
+30773 [Test worker] INFO  manager.MyListener - unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=102.0.5005.63): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97cd04dc2c6ede21d24c5691a67e7330
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+30774 [Test worker] INFO  manager.MyListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=102.0.5005.63): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B7SSTIV', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\Andrey\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97cd04dc2c6ede21d24c5691a67e7330
+*** Element info: {Using=xpath, value=//button[text()='Sign Out']}
+31246 [Test worker] INFO  manager.MyListener - Error screenshot link --->src/test/screenshots/screenshot-1322.png
+31247 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTestNew

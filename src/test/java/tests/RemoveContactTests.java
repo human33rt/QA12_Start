@@ -13,6 +13,8 @@ public class RemoveContactTests extends TestBase{
                     .withEmail("noa@gmail.com")
                     .withPassword("Nnoa12345$"));
         }
+        //providerContacts()===>3
+       // app.contact().providerOfContacts();
     }
     @Test
     public void removeOneContact(){
@@ -29,5 +31,7 @@ public class RemoveContactTests extends TestBase{
     @Test
     public void removeAllContacts(){
         app.contact().removeAllContacts();
+        //Assert.assertTrue(app.contact().isContactsListIsEmpty());
             }
+
 }

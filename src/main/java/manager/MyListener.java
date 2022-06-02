@@ -33,8 +33,6 @@ public class MyListener extends AbstractWebDriverEventListener {
         HelperBase helperBase = new HelperBase(driver);
         helperBase.takeScreenshot(link);
         logger.info("Error screenshot link --->"+link);
-
-
     }
 
     public MyListener() {
@@ -46,48 +44,4 @@ public class MyListener extends AbstractWebDriverEventListener {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-//    Logger logger = LoggerFactory.getLogger(MyListener.class);
-//
-//
-//    @Override
-//    public void beforeFindBy(By by, WebElement element, WebDriver driver) {
-//        super.beforeFindBy(by, element, driver);
-//        logger.info ("Start search element by locator --->" +by);
-//    }
-//
-//    @Override
-//    public void afterFindBy(By by, WebElement element, WebDriver driver) {
-//        super.afterFindBy(by, element, driver);
-//        logger.info ("The element with locator --->" +by+ "was found");
-//    }
-//
-//    @Override
-//    public void onException(Throwable throwable, WebDriver driver) {
-//        super.onException(throwable, driver);
-//        logger.info("Something went wrong!!!");
-//        logger.info(throwable.getMessage());
-//        logger.info(String.valueOf(throwable.fillInStackTrace()));
-//        //screenshots + info("screen4.png")
-//        int i= (int)(System.currentTimeMillis()/1000)%3600;
-//        String link = "src/test/screenshots"+i+".png";
-//        HelperBase helperBase = new HelperBase(driver);
-//        helperBase.takeScreenshot(link);
-//        logger.info("This link to screenshot with error ------>"+link);
-//
-//    }
-//
-//    public MyListener() {
-//    }
 }

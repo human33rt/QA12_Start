@@ -121,4 +121,6 @@ click(By.xpath("//button[.='Remove']"));
                    removeOneContactCount();
                }
            }
-       }
+
+
+}
