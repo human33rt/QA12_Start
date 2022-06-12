@@ -66,25 +66,25 @@ click(By.xpath("//button[.='Remove']"));
 }
 
 
-//    public void providerOfContacts(){
-//        if(countOfContacts()<3){
-//            int index=(int) (System.currentTimeMillis()/1000)%3600;
-//            for(int i=0; i<3;i++){
-//
-//                Contact contact = new Contact().withName("Zoa")
-//                        .withLastName("Snow")
-//                        .withPhone("1212" +i+ index)
-//                        .withEmail("zoa"+i+index+"@gmail.com")
-//                        .withAddress("Haifa")
-//                        .withDescription("Friend");
-//                openContactForm();
-//                fillContactForm(contact);
-//                saveContact();
-//                pause(1000);
-//            }
-//            //Contact contact = Contact.builder().Name().LastName().build();
-//        }
-//    }
+    public void providerOfContacts(){
+        if(countOfContacts()<3){
+            int index=(int) (System.currentTimeMillis()/1000)%3600;
+            for(int i=0; i<3;i++){
+
+                Contact contact = new Contact().withName("Zoa")
+                        .withLastName("Snow")
+                        .withPhone("1212" +i+ index)
+                        .withEmail("zoa"+i+index+"@gmail.com")
+                        .withAddress("Haifa")
+                        .withDescription("Friend");
+                openContactForm();
+                fillContactForm(contact);
+                saveContact();
+                pause(1000);
+            }
+            //Contact contact = Contact.builder().Name().LastName().build();
+        }
+    }
 
    public int removeOneContactCount(){
       int countBefore = countOfContacts();
@@ -105,18 +105,7 @@ click(By.xpath("//button[.='Remove']"));
         public boolean isContactsListIsEmpty() {
        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM h3")).isEmpty();
    }
-//
-//    public void removeAllContactsNotWork() {
-//        List <WebElement> list = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
-//
-//        for (WebElement el:list){
-//            el.click();
-//            wd.findElement(By.xpath("//button[text()='Remove']")).click();
-//            pause(500);
-//        }
-//    }
-//
-           public void removeAllContacts(){
+    public void removeAllContacts(){
                while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() != 0) {
                    removeOneContactCount();
                }

@@ -1,0 +1,109 @@
+2980 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+4130 [Test worker] INFO  tests.TestBase - Test name ----->fillLoginFormTest
+4134 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+9161 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+9162 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+9178 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+9283 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+9313 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+9558 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+9598 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+9776 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+9796 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+14862 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14884 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+14889 [Test worker] INFO  tests.TestBase - Test endfillLoginFormTest
+14892 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestDataProvider
+14893 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14914 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+14914 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+14934 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+14980 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+15011 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+15054 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+15077 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+15219 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+15239 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+15380 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+15397 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+20446 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+20468 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+20469 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestDataProvider
+20471 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModel
+20472 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+20483 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+20484 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+20499 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+20548 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+20580 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+20622 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+20638 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+20789 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+20811 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+20969 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+20982 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+26044 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+26066 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+26067 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModel
+26075 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModelDataProvider
+26075 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+26096 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+26096 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+26112 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+26168 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+26196 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+26247 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+26268 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+26409 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+26423 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+26566 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+26577 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+31623 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+31645 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+31647 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModelDataProvider
+31652 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModelDataProvider
+31653 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+31676 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+31676 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+31691 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+31745 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+31770 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+31814 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+31833 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+31981 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+32004 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+32226 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+32251 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+37307 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+37329 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+37330 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModelDataProvider
+37331 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModelDataProvider
+37332 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+37344 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+37344 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+37360 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+37416 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+37440 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+37482 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+37500 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+37655 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+37676 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+37818 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+37844 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+42903 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+42925 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+42926 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModelDataProvider
+42928 [Test worker] INFO  tests.TestBase - Test name ----->negativeLoginTest
+42928 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+42940 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+42941 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+42955 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+43006 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+43036 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+43079 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+43095 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+43247 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+43264 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+43397 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+43417 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+44036 [Test worker] INFO  tests.TestBase - Test endnegativeLoginTest

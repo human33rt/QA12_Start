@@ -1,0 +1,493 @@
+2960 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+4193 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccess
+4200 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+9262 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+9262 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+9280 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+9390 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+9424 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+9646 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+9675 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+9841 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+9864 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+9926 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+10824 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+10824 [Test worker] INFO  tests.TestBase - The test 'Add new contact starts with count of contact---->2
+10825 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+10856 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+10924 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+10956 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+11081 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+11098 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+11240 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+11266 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+11447 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+11466 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+11640 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+11669 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+11806 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+11830 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+11992 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+12009 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+15065 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+15087 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+15088 [Test worker] INFO  tests.TestBase - The test 'Add new contact' ends with count of contact in the end --->3
+17096 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h2
+17123 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h2 was found
+17149 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h3
+17167 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h3 was found
+17207 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccess
+17210 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccessNew
+17211 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+17224 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+17224 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+17240 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+17240 [Test worker] INFO  tests.TestBase - The test 'Add new contact starts with count of contact---->3
+17241 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+17254 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+17306 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+17336 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+17462 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+17472 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+17613 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+17624 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+17781 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+17807 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+18009 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+18022 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+18160 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+18181 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+18310 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+18333 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+21381 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+21403 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+21404 [Test worker] INFO  tests.TestBase - The test 'Add new contact' ends with count of contact in the end --->4
+23415 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h2
+23438 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h2 was found
+23451 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h3
+23469 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h3 was found
+23518 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccessNew
+23524 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccessScv
+23524 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+23546 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+23547 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+23561 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+23562 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+23579 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+23620 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+23649 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+23770 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+23795 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+23928 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+23939 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+24079 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+24098 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+24247 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+24262 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+24403 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+24419 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+24534 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+24543 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+27603 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+27626 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+29634 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h2
+29655 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h2 was found
+29717 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h3
+29735 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h3 was found
+29796 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccessScv
+29797 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccessScv
+29798 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+29812 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+29813 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+29828 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+29829 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+29843 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+29906 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+29941 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+30071 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+30089 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+30240 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+30261 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+30460 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+30478 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+30651 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+30681 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+30898 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+30920 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+31083 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+31105 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+34160 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+34182 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+36190 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h2
+36212 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h2 was found
+36287 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h3
+36306 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h3 was found
+36379 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccessScv
+36380 [Test worker] INFO  tests.TestBase - Test name ----->addNewContactSuccessScv
+36380 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+36399 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+36400 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+36415 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+36415 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+36429 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+36469 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+36491 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+36635 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+36646 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+36796 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+36817 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+36987 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+37002 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+37158 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+37171 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+37295 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+37312 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+37444 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+37467 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+40521 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+40544 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+42552 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h2
+42574 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h2 was found
+42657 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: h3
+42668 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: h3 was found
+42750 [Test worker] INFO  tests.TestBase - Test endaddNewContactSuccessScv
+42752 [Test worker] INFO  tests.TestBase - Test name ----->fillLoginFormTest
+42753 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+42776 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+42776 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+42793 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+42841 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+42861 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+42914 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+42935 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+43079 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+43102 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+43240 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+43255 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+44295 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+44316 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+44317 [Test worker] INFO  tests.TestBase - Test endfillLoginFormTest
+44318 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestDataProvider
+44319 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+44331 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+44332 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+44347 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+44394 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+44413 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+44458 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+44474 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+44632 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+44648 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+44803 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+44831 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+45874 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+45896 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+45897 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestDataProvider
+45899 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModel
+45899 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+45910 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+45910 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+45926 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+45974 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+45994 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+46037 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+46060 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+46203 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+46223 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+46358 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+46379 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+47428 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+47449 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+47450 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModel
+47452 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModelDataProvider
+47453 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+47464 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+47464 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+47479 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+47528 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+47561 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+47606 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+47619 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+47773 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+47787 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+47944 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+47966 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+49016 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+49038 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+49039 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModelDataProvider
+49040 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModelDataProvider
+49041 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+49054 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+49054 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+49070 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+49134 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+49151 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+49207 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+49223 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+49372 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+49395 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+49525 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+49547 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+50610 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+50632 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+50633 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModelDataProvider
+50634 [Test worker] INFO  tests.TestBase - Test name ----->loginSuccessTestModelDataProvider
+50635 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+50648 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+50648 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+50662 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+50714 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+50743 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+50787 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+50802 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+50948 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+50957 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+51090 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+51113 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+52174 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+52196 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+52197 [Test worker] INFO  tests.TestBase - Test endloginSuccessTestModelDataProvider
+52198 [Test worker] INFO  tests.TestBase - Test name ----->negativeLoginTest
+52199 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+52211 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+52211 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+52227 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+52277 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+52293 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+52338 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+52355 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+52506 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+52525 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+52671 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.tagName: button
+52679 [Test worker] INFO  manager.MyListener - The element with locator --->By.tagName: button was found
+53284 [Test worker] INFO  tests.TestBase - Test endnegativeLoginTest
+53287 [Test worker] INFO  tests.TestBase - Test name ----->negativeRegistrationTest
+53287 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+58321 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+58322 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+58338 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+58376 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+58400 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+58577 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+58596 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+58746 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+58772 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+63828 [Test worker] INFO  tests.TestBase - Test endnegativeRegistrationTest
+63830 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTest
+63831 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+69024 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+69024 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+69041 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+69082 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+69102 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+69287 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+69303 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+69490 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+69504 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+74567 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+74589 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+74590 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTest
+74591 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTestNew
+74592 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+74603 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+74603 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+74623 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+74669 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+74685 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+74735 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+74758 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+74905 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+74927 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+75053 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+75071 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+76115 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+76137 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+76138 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTestNew
+76139 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTestNew
+76140 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+76152 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+76152 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+76169 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+76220 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+76236 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+76279 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+76298 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+76452 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+76464 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+76603 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+76618 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+77671 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+77693 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+77694 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTestNew
+77695 [Test worker] INFO  tests.TestBase - Test name ----->successRegistrationTestNew
+77696 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+77709 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+77709 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+77724 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+77783 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+77807 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/login'] was found
+77864 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[1]
+77885 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[1] was found
+78037 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //input[2]
+78052 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //input[2] was found
+78177 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()=' Registration']
+78189 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Registration'] was found
+79241 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+79263 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+79264 [Test worker] INFO  tests.TestBase - Test endsuccessRegistrationTestNew
+79265 [Test worker] INFO  tests.TestBase - Test name ----->removeAllContacts
+79266 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+79278 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+79278 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+84319 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+84319 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+84339 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+84388 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+84412 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+84547 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+84572 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+84716 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+84741 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+84875 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+84900 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+85036 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+85058 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+85190 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+85226 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+85360 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+85388 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+89456 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+89478 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+89519 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+89544 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+89674 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+89699 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+89832 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+89855 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+89987 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+90010 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+90182 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+90192 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+90315 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+90334 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+90449 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+90459 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+94511 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+94533 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+94572 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+94597 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+94724 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+94737 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+94854 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+94878 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+94993 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+95019 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+95163 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+95183 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+95308 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+95328 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+95452 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+95461 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+99524 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+99550 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+99550 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+99562 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+99562 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM h3
+99580 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM h3 was found
+99580 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM h3
+99595 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM h3 was found
+99609 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+99634 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+99692 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[.='Remove']
+99710 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[.='Remove'] was found
+100270 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+100294 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+100294 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+100307 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+100307 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+100323 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+100323 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM h3
+100339 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM h3 was found
+100339 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM h3
+100355 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM h3 was found
+100362 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+100371 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+100413 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[.='Remove']
+100442 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[.='Remove'] was found
+101001 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+101023 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+101023 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+101039 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+101039 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+101057 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+101057 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM h3
+101070 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM h3 was found
+101070 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM h3
+101085 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM h3 was found
+101092 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+101101 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+101140 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[.='Remove']
+101149 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[.='Remove'] was found
+101700 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+106750 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+106750 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+111780 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+111781 [Test worker] INFO  tests.TestBase - Test endremoveAllContacts
+111782 [Test worker] INFO  tests.TestBase - Test name ----->removeOneContact
+111782 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+111802 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out'] was found
+111802 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+116839 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+116839 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+116856 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+116905 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+116938 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+117066 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+117073 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+117187 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+117204 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+117332 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+117351 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+117518 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+117535 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+117661 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+117679 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+117790 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+117805 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+121855 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+121877 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+121919 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+121940 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+122081 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+122102 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+122223 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+122237 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+122373 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+122391 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+122558 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+122583 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+122734 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+122747 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+122898 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+122915 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+126975 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/add']
+126998 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/add'] was found
+127060 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Name']
+127095 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name'] was found
+127223 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Last Name']
+127247 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name'] was found
+127380 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Phone']
+127403 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone'] was found
+127519 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='email']
+127547 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email'] was found
+127694 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='Address']
+127714 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address'] was found
+127831 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [placeholder='description']
+127853 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description'] was found
+127964 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .add_form__2rsm2 button
+127977 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .add_form__2rsm2 button was found
+132032 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+132059 [Test worker] INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM was found
+132102 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[.='Remove']
+132134 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[.='Remove'] was found
+132170 [Test worker] INFO  tests.TestBase - Test endremoveOneContact

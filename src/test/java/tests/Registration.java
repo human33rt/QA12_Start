@@ -25,7 +25,7 @@ public class Registration extends TestBase {
 //    }
 
 
-    @Test
+    @Test(groups = {"web"})
     public void successRegistrationTest(){
 
         int i= (int) (System.currentTimeMillis()/1000)%3600;
@@ -42,13 +42,15 @@ public class Registration extends TestBase {
 
     }
 
-    @Test(dataProvider = "RegValidData", dataProviderClass = MyDataProvider.class)
+    @Test(dataProvider = "regValidData", dataProviderClass = MyDataProvider.class)
     public void successRegistrationTestNew(String email,String password){
+        int i= (int) (System.currentTimeMillis()/1000)%3600;
+        email = "Zoa"+i+"@gmail.com";
 
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(email,password);
         app.getUser().submitRegistrationForm();
-        app.getUser().pause(5000);
+        app.getUser().pause(1000);
         Assert.assertTrue(app.getUser().isLogged());
 
     }

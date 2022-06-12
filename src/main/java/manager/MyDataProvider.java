@@ -23,15 +23,15 @@ public class MyDataProvider {
    }
 
     @DataProvider//add string
-    public Iterator<Object[]> RegValidData(){
+    public Iterator<Object[]> regValidData(){
         List<Object[]> list = new ArrayList<>();
-        int i= (int) (System.currentTimeMillis()/1000)%3600;
-        list.add(new Object[]{"noa"+i+"@gmail.com","Nnoa12345$"});
-        list.add(new Object[]{"noa"+i+"@gmail.com","Nnoa12345$"});
-        list.add(new Object[]{"noa"+i+"@gmail.com","Nnoa12345$"});
+
+        list.add(new Object[]{"noa@gmail.com","Nnoa12345$"});
+        list.add(new Object[]{"Zoa@gmail.com","Nnoa12345$"});
+        list.add(new Object[]{"Noa@gmail.com","Nnoa12345$"});
         return list.iterator();
     }
-//
+
     @DataProvider //unreal in our case
    public Iterator<Object[]> ContactValidData(){
         List<Object[]> list = new ArrayList<>();

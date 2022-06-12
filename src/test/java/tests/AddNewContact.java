@@ -69,7 +69,7 @@ public class AddNewContact extends TestBase{
         Assert.assertTrue(app.contact().isContactCreateByPhone(contact.getPhone()));
     }
 
-   @Test //(dataProvider = "ContactValidData",dataProviderClass = MyDataProvider.class)
+   @Test (groups = {"web"})//(dataProvider = "ContactValidData",dataProviderClass = MyDataProvider.class)
     public void addNewContactSuccessNew(){
         int countStart = app.contact().countOfContacts();
         logger.info("The test 'Add new contact starts with count of contact---->"+countStart );

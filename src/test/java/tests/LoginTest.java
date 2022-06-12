@@ -26,13 +26,13 @@ public class LoginTest extends TestBase {
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
-        app.getUser().pause(5000);
+        app.getUser().pause(1000);
        Assert.assertTrue(app.getUser().isLogged());
     }
 
-    @Test
-    public void loginSuccessTestDataProvider(User user) { //User user
-      // User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+    @Test (groups = {"web"})
+    public void loginSuccessTestDataProvider() { //User user
+       User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
 
 //              User user = User.builder()
 //                .email("noagmail.com")
@@ -41,7 +41,7 @@ public class LoginTest extends TestBase {
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
-        app.getUser().pause(5000);
+        app.getUser().pause(1000);
         Assert.assertTrue(app.getUser().isLogged());
     }
 
@@ -52,7 +52,7 @@ public class LoginTest extends TestBase {
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
-        app.getUser().pause(5000);
+        app.getUser().pause(1000);
         Assert.assertTrue(app.getUser().isLogged());
     }
 
@@ -63,7 +63,7 @@ public class LoginTest extends TestBase {
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
-        app.getUser().pause(5000);
+        app.getUser().pause(1000);
         Assert.assertTrue(app.getUser().isLogged());
     }
 
